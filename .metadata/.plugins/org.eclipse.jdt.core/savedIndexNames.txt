@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+/media/lab_pc/A68D-BDCA/BioLab/.metadata/.plugins/org.eclipse.jdt.core
+3082084659.index
+1932949083.index

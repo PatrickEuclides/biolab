@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Entidade"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.dao.ConnectionFactory"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.dao.ReinoDao"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.controle.ReinoControle"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Reino"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.dao.ClasseDao"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Classe"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.dao.FamiliaDao"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.dao.GeneroDao"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Especie"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.dao.EspecieDao"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.controle.OrdemControle"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Ordem"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Familia"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.controle.FamiliaControle"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.controle.GeneroControle"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Genero"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.controle.FiloControle"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.biolab.entidade.Filo"/>
+</qualifiedTypeNameHistroy>

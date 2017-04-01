@@ -1,0 +1,83 @@
+package br.edu.ifpi.biolab.visao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.edu.ifpi.biolab.controle.ReinoControle;
+import br.edu.ifpi.biolab.entidade.Reino;
+
+public class ReinoVisao {
+	private ReinoControle reinoControle;
+
+	public ReinoVisao() {
+		reinoControle = new ReinoControle();
+	}
+
+	public static void main(String[] args) throws SQLException {
+		ReinoVisao visao = new ReinoVisao();
+		int opcaoEscolhida = 1;
+		while (opcaoEscolhida != 0) {
+
+			String menu = " 1-Consultar \n 2-Adicionar \n 3-Alterar \n 4-Remover \n 0-Sair";
+
+			String valorDigitado = JOptionPane.showInputDialog(menu);
+			opcaoEscolhida = Integer.parseInt(valorDigitado);
+			int re = 0;
+			switch (opcaoEscolhida) {
+			
+			case 1:
+
+				List<Reino> reinos = visao.buscaTodosReino();
+				String reinosTelas = "";
+				for (Reino reino : reinos) {
+					reinosTelas = reinosTelas + reino.getId() + "-" + reino.getNome() + "\n";
+				}
+				JOptionPane.showMessageDialog(null, reinosTelas);
+
+				break;
+			case 2:
+				String nomeReino = JOptionPane.showInputDialog("Digite o nome do Reino.");
+				Reino r = new Reino(opcaoEscolhida, nomeReino);
+				visao.adicionar(r);
+				JOptionPane.showMessageDialog(null, "Inserido com sucesso!");
+				break;
+			case 3:
+				List<Reino> reinos1 = visao.buscaTodosReino();
+				String reinosTelas1 = "";
+				for (Reino reino : reinos1) {
+					reinosTelas1 = reinosTelas1 + reino.getId() + "-" + reino.getNome() + "\n";
+				}
+				JOptionPane.showMessageDialog(null, reinosTelas1);
+				String nomeReino1 = JOptionPane.showInputDialog("Digite o numero do reino que deseja alterar."+ re);
+				Reino r1 = new Reino(opcaoEscolhida, nomeReino1);
+				visao.altera(r1);
+				break;
+				
+			case 4:
+				r1 = new Reino (opcaoEscolhida, "Plant");
+				visao.remove(r1);
+				break;
+
+			}
+		}
+	}
+
+	public void adicionar(Reino reino) throws SQLException {
+		reinoControle.adiciona(reino);
+	}
+
+	public List<Reino> buscaTodosReino() throws SQLException {
+		return reinoControle.buscaTodos();
+	}
+
+	public void altera(Reino reino) {
+		reinoControle.altera(reino);
+
+	}
+
+	public void remove(Reino reino) {
+		reinoControle.remove(reino);
+	}
+}

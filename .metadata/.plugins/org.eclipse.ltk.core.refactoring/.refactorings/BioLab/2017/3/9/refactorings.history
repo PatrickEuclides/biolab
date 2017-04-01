@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;br.edu.ifpi.biolab.negocio&apos; to &apos;br.edu.ifpi.biolab.controle&apos;&#x0D;&#x0A;- Original project: &apos;BioLab&apos;&#x0D;&#x0A;- Original element: &apos;BioLab/src/br.edu.ifpi.biolab.negocio&apos;&#x0D;&#x0A;- Renamed element: &apos;BioLab/src/br.edu.ifpi.biolab.controle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;br.edu.ifpi.biolab.negocio&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;br.edu.ifpi.biolab.negocio" name="br.edu.ifpi.biolab.controle" qualified="false" references="true" stamp="1488435599969" textual="false" version="1.0"/>
+</session>
